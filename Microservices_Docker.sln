@@ -8,9 +8,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductMicroservice", "ProductMicroservice\ProductMicroservice.csproj", "{CF5F835A-3A74-4DD1-9B30-3F677F932F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductMicroservice", "ProductMicroservice\ProductMicroservice.csproj", "{CF5F835A-3A74-4DD1-9B30-3F677F932F0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicroservice", "UserMicroservice\UserMicroservice.csproj", "{05D73CD5-7A6D-4E87-988A-154B1216109D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMicroservice", "UserMicroservice\UserMicroservice.csproj", "{05D73CD5-7A6D-4E87-988A-154B1216109D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotAPIGateway", "OcelotAPIGateway\OcelotAPIGateway.csproj", "{648727BA-991D-40A5-BA1D-CD5271A77E51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{05D73CD5-7A6D-4E87-988A-154B1216109D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05D73CD5-7A6D-4E87-988A-154B1216109D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05D73CD5-7A6D-4E87-988A-154B1216109D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648727BA-991D-40A5-BA1D-CD5271A77E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648727BA-991D-40A5-BA1D-CD5271A77E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648727BA-991D-40A5-BA1D-CD5271A77E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648727BA-991D-40A5-BA1D-CD5271A77E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
